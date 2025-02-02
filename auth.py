@@ -25,10 +25,10 @@ def is_valid_contact(contact):
 # Function to get a database connection
 def get_db_connection():
     return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
-        database='apartment',
+        host='e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+                    user="pjqavo0krbmpsf6a",
+                    password="hlk6mor7x87dh632",
+                    database="j79w0tqcyfy5fkks",
         cursorclass=pymysql.cursors.DictCursor
     )
 

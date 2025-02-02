@@ -16,10 +16,10 @@ secret_key=os.urandom(10)
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
 
-conn=pymysql.connect(host='localhost',
-                    user="root",
-                     password="",
-                    database="apartment",
+conn=pymysql.connect(host='e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+                    user="pjqavo0krbmpsf6a",
+                    password="hlk6mor7x87dh632",
+                    database="j79w0tqcyfy5fkks",
                     cursorclass=pymysql.cursors.DictCursor)
 
 
@@ -622,4 +622,4 @@ def visitorform():
     return render_template('visitors.html')
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0',port=5000)
+    app.run(debug=True)
