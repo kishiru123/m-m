@@ -1,0 +1,14 @@
+{%extends 'indexnav.html'%}
+
+ 
+{% block indexnav_body %}
+<div id="container_floor">
+    <img src="{{ url_for('static', filename='assets/img/ground1.jpg') }}" alt="Image_Floorplan">
+</div>
+<div id="container_floor">
+    <img src="{{ url_for('static', filename='assets/img/second1.jpg') }}" alt="Image_Floorplan">
+</div>
+<div id="container_floor">
+    <img src="{{ url_for('static', filename='assets/img/mainground.jpg') }}" alt="Image_Floorplan">
+</div>
+{% endblock %}
